@@ -12,9 +12,11 @@
     tools:context="com.bdjobs.dbtest.MainActivity"
     >
 
-  <TextView
+
+  <Button
+      android:id="@+id/updateBTN"
+      android:text="Update"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
       />
 </RelativeLayout>

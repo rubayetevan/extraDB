@@ -18,14 +18,18 @@ import java.io.OutputStream;
 
 class DBHelper extends SQLiteOpenHelper {
 
-  public static String DB_PATH = "/data/data/com.bdjobs.dbtest/databases/";
-  public static String DB_NAME = "test.sqlite";
+  public static final String DB_PATH = "/data/data/com.bdjobs.dbtest/databases/";
+  public static final String DB_NAME = "test.sqlite";
   public static final String TABLE_NAME_EMPLOYEE="employee";
   public static final int DATABASE_VERSION=1;
 
   public static final String EMPLOYEE_COL_ID="id";
   public static final String EMPLOYEE_COL_NAME="name";
   public static final String EMPLOYEE_COL_MOBILE_NUMBER="mobile";
+
+
+
+
   private SQLiteDatabase myDataBase;
   private final Context myContext;
 
